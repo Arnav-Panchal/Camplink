@@ -13,12 +13,7 @@ export default function About() {
             <p>
             By centralizing communication and streamlining access to pertinent information, CampLink enhances the overall campus experience, fostering a sense of community and connectivity among its users. Whether accessing the site from a desktop or mobile device, users can rely on CampLink to keep them informed and engaged with campus life.
             </p>
-            {/* <p>
-              Welcome to Sahand's Blog! This blog was created by Sahand Ghavidel
-              as a personal project to share his thoughts and ideas with the
-              world. Sahand is a passionate developer who loves to write about
-              technology, coding, and everything in between.
-            </p> */}
+            
 
             {/* <p>
               On this blog, you'll find weekly articles and tutorials on topics
