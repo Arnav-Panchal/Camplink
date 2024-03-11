@@ -78,7 +78,7 @@ export default function Header() {
           pill
           onClick={() => dispatch(toggleTheme())}
         >
-          {theme === 'light' ? <FaSun /> : <FaMoon />}
+          {theme === 'light-5' ? <FaSun /> : <FaMoon />}
         </Button>
         {currentUser ? (
           <Dropdown
@@ -117,7 +117,7 @@ export default function Header() {
           <Link to='/about'>About</Link>
         </Navbar.Link>
         <Navbar.Link active={path === '/projects'} as={'div'}>
-          <Link to='/projects'>Projects</Link>
+          <Link to='/projects'>Contact us</Link>
         </Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
